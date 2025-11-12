@@ -1,0 +1,15 @@
+<map id="pfree" name="pfree">
+<area shape="rect" id="Node000001" title="Деструктор точки" alt="" coords="537,80,588,105"/>
+<area shape="rect" id="Node000002" href="$shape_8c.html#a5ebcb7c43128b4b654d998f39baf4817" title="Деструктор Фигуры" alt="" coords="360,55,466,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="521,88,466,79,467,73,522,83"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#ae25b9fd7af24305d205bb581d220877b" title="Пример инкапсуляции" alt="" coords="337,104,489,129"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="523,101,490,107,489,101,522,96"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a33c092a6e331f446c7648bf9d1172281" title=" " alt="" coords="103,5,289,30"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="344,54,253,33,254,28,346,49"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#ad1410c203e4dc0e49585742cbe9c1405" title="Пример наследования" alt="" coords="126,55,266,79"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="345,70,266,70,266,64,345,64"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,55,55,79"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="132,37,103,46,56,61,54,56,102,40,130,32"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="111,70,55,70,55,64,111,64"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="321,117,216,110,102,94,54,79,55,74,103,88,216,105,322,112"/>
+</map>

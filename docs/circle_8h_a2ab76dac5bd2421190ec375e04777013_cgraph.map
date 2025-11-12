@@ -1,0 +1,9 @@
+<map id="circle_create" name="circle_create">
+<area shape="rect" id="Node000001" title="Конструктор для круга" alt="" coords="5,55,101,79"/>
+<area shape="rect" id="Node000002" href="$point_8c.html#ad3f5dca9fde221e2aa96f81419290e1d" title="Конструктор точки" alt="" coords="149,5,202,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,52,134,31,136,36,87,57"/>
+<area shape="rect" id="Node000003" href="$point_8c.html#a54395281002daaec90cb8e4ed35ae59d" title="Сеттер абсциссы точки" alt="" coords="149,55,202,79"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,64,133,64,133,70,101,70"/>
+<area shape="rect" id="Node000004" href="$point_8c.html#acae2d9733466e1fd907871c1770f0765" title="Сеттер ордианты точки" alt="" coords="149,104,202,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="87,77,135,97,133,102,85,82"/>
+</map>

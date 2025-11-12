@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['динамическая_20память_0',['Динамическая память',['../md__2home_2mark_2work_2kaf22_2cs1_2slides_2lab008_2content.html#autotoc_md6',1,'']]],
-  ['домашнее_20задание_1',['Домашнее задание',['../md__2home_2mark_2work_2kaf22_2cs1_2slides_2lab008_2content.html#autotoc_md72',1,'']]],
-  ['дескриптор_2',['Файловый дескриптор',['../md__2home_2mark_2work_2kaf22_2cs1_2slides_2lab008_2content.html#autotoc_md25',1,'']]]
+  ['сборка_0',['Сборка',['../index.html#autotoc_md6',1,'']]],
+  ['сборка_20с_20использованием_20cmake_1',['Сборка с использованием CMake',['../index.html#autotoc_md4',1,'']]],
+  ['с_20использованием_20cmake_2',['Сборка с использованием CMake',['../index.html#autotoc_md4',1,'']]],
+  ['с_20git_20и_20doxygen_3',['Занятие 8. Динамическая память. Принципы ООП. Работа с git и doxygen',['../index.html#autotoc_md1',1,'']]]
 ];

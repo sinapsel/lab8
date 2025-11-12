@@ -1,0 +1,7 @@
+<map id="shape_move" name="shape_move">
+<area shape="rect" id="Node000001" title="Функция для смещения Фигуры в новый центр" alt="" coords="5,31,100,55"/>
+<area shape="rect" id="Node000002" href="$point_8c.html#a54395281002daaec90cb8e4ed35ae59d" title="Сеттер абсциссы точки" alt="" coords="148,5,201,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,31,132,24,133,29,101,36"/>
+<area shape="rect" id="Node000003" href="$point_8c.html#acae2d9733466e1fd907871c1770f0765" title="Сеттер ордианты точки" alt="" coords="148,55,201,79"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,50,133,56,132,61,100,55"/>
+</map>

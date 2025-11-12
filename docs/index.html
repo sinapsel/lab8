@@ -124,6 +124,8 @@ $(function(){initNavTree('index.html',''); initResizable(true); });
 </div><!-- fragment --></li>
 <li>Режим с оптимизациями <div class="fragment"><div class="line">cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build</div>
 </div><!-- fragment --></li>
+<li>Режим с санитайзером адресов <div class="fragment"><div class="line">cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build -DSAN=ON</div>
+</div><!-- fragment --></li>
 </ol>
 <h3><a class="anchor" id="autotoc_md6"></a>
 Сборка</h3>

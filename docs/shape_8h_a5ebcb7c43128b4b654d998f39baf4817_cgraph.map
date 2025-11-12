@@ -1,0 +1,5 @@
+<map id="destroy_shape" name="destroy_shape">
+<area shape="rect" id="Node000001" title="Деструктор Фигуры" alt="" coords="5,5,112,30"/>
+<area shape="rect" id="Node000002" href="$point_8c.html#a5686aa9373c029ef7f1404cfc973e7ef" title="Деструктор точки" alt="" coords="160,5,210,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,15,144,15,144,20,112,20"/>
+</map>

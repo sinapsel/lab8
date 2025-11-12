@@ -1,7 +1,10 @@
 <map id="include/shape.h" name="include/shape.h">
-<area shape="rect" id="Node000001" title="Модуль фигуры" alt="" coords="22,5,134,30"/>
+<area shape="rect" id="Node000001" title="Модуль фигуры" alt="" coords="47,5,160,30"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="5,78,66,103"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,32,53,66,48,63,69,29"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="89,78,152,103"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="87,29,108,63,104,66,83,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,32,59,69,55,65,90,29"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="105,151,168,175"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="109,30,133,135,128,136,104,31"/>
+<area shape="rect" id="Node000004" href="$point_8h.html" title=" " alt="" coords="140,78,200,103"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="116,29,151,65,147,69,113,32"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="167,104,151,138,146,136,162,102"/>
 </map>

@@ -115,16 +115,20 @@ $(function(){initNavTree('shape_8h.html',''); initResizable(true); });
 <a href="#details">Подробнее...</a></p>
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="point_8h_source.html">point.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Граф включаемых заголовочных файлов для shape.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="shape_8h__incl.png" border="0" usemap="#ainclude_2shape_8h" alt=""/></div>
 <map name="ainclude_2shape_8h" id="ainclude_2shape_8h">
-<area shape="rect" title="Модуль фигуры" alt="" coords="22,5,134,30"/>
+<area shape="rect" title="Модуль фигуры" alt="" coords="47,5,160,30"/>
 <area shape="rect" title=" " alt="" coords="5,78,66,103"/>
-<area shape="poly" title=" " alt="" coords="73,32,53,66,48,63,69,29"/>
-<area shape="rect" title=" " alt="" coords="89,78,152,103"/>
-<area shape="poly" title=" " alt="" coords="87,29,108,63,104,66,83,32"/>
+<area shape="poly" title=" " alt="" coords="94,32,59,69,55,65,90,29"/>
+<area shape="rect" title=" " alt="" coords="105,151,168,175"/>
+<area shape="poly" title=" " alt="" coords="109,30,133,135,128,136,104,31"/>
+<area shape="rect" href="point_8h.html" title=" " alt="" coords="140,78,200,103"/>
+<area shape="poly" title=" " alt="" coords="116,29,151,65,147,69,113,32"/>
+<area shape="poly" title=" " alt="" coords="167,104,151,138,146,136,162,102"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -187,6 +191,9 @@ $(function(){initNavTree('shape_8h.html',''); initResizable(true); });
 <tr class="memitem:aeac78244a8b30ffee41ae0ac60356bd7" id="r_aeac78244a8b30ffee41ae0ac60356bd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeac78244a8b30ffee41ae0ac60356bd7">draw</a> (const <a class="el" href="#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a> *c)</td></tr>
 <tr class="memdesc:aeac78244a8b30ffee41ae0ac60356bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для отрисовки Фигуры  <br /></td></tr>
 <tr class="separator:aeac78244a8b30ffee41ae0ac60356bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ebcb7c43128b4b654d998f39baf4817" id="r_a5ebcb7c43128b4b654d998f39baf4817"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ebcb7c43128b4b654d998f39baf4817">destroy_shape</a> (<a class="el" href="#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a> *c)</td></tr>
+<tr class="memdesc:a5ebcb7c43128b4b654d998f39baf4817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Деструктор Фигуры  <br /></td></tr>
+<tr class="separator:a5ebcb7c43128b4b654d998f39baf4817"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
 <div class="textblock"><p>Модуль фигуры </p>
@@ -260,6 +267,59 @@ $(function(){initNavTree('shape_8h.html',''); initResizable(true); });
 </div>
 </div>
 <h2 class="groupheader">Функции</h2>
+<a id="a5ebcb7c43128b4b654d998f39baf4817" name="a5ebcb7c43128b4b654d998f39baf4817"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ebcb7c43128b4b654d998f39baf4817">&#9670;&#160;</a></span>destroy_shape()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void destroy_shape </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a> *</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Деструктор Фигуры </p>
+<ul>
+<li><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>shape_t* указатель на фигуру </td></tr>
+  </table>
+  </dd>
+</dl>
+</li>
+</ul>
+<div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="shape_8h_a5ebcb7c43128b4b654d998f39baf4817_cgraph.png" border="0" usemap="#ashape_8h_a5ebcb7c43128b4b654d998f39baf4817_cgraph" alt=""/></div>
+<map name="ashape_8h_a5ebcb7c43128b4b654d998f39baf4817_cgraph" id="ashape_8h_a5ebcb7c43128b4b654d998f39baf4817_cgraph">
+<area shape="rect" title="Деструктор Фигуры" alt="" coords="5,5,112,30"/>
+<area shape="rect" href="point_8c.html#a5686aa9373c029ef7f1404cfc973e7ef" title="Деструктор точки" alt="" coords="160,5,210,30"/>
+<area shape="poly" title=" " alt="" coords="112,15,144,15,144,20,112,20"/>
+</map>
+</div>
+<div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="shape_8h_a5ebcb7c43128b4b654d998f39baf4817_icgraph.png" border="0" usemap="#ashape_8h_a5ebcb7c43128b4b654d998f39baf4817_icgraph" alt=""/></div>
+<map name="ashape_8h_a5ebcb7c43128b4b654d998f39baf4817_icgraph" id="ashape_8h_a5ebcb7c43128b4b654d998f39baf4817_icgraph">
+<area shape="rect" title="Деструктор Фигуры" alt="" coords="337,31,443,55"/>
+<area shape="rect" href="main_8c.html#a33c092a6e331f446c7648bf9d1172281" title=" " alt="" coords="103,5,289,30"/>
+<area shape="poly" title=" " alt="" coords="321,37,289,33,290,27,322,31"/>
+<area shape="rect" href="main_8c.html#ad1410c203e4dc0e49585742cbe9c1405" title="Пример наследования" alt="" coords="126,55,266,79"/>
+<area shape="poly" title=" " alt="" coords="322,54,266,61,266,56,321,49"/>
+<area shape="rect" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,55,55"/>
+<area shape="poly" title=" " alt="" coords="97,36,55,42,55,37,96,30"/>
+<area shape="poly" title=" " alt="" coords="110,57,55,49,55,44,111,52"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="aeac78244a8b30ffee41ae0ac60356bd7" name="aeac78244a8b30ffee41ae0ac60356bd7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aeac78244a8b30ffee41ae0ac60356bd7">&#9670;&#160;</a></span>draw()</h2>
 
@@ -380,6 +440,18 @@ $(function(){initNavTree('shape_8h.html',''); initResizable(true); });
   </table>
   </dd>
 </dl>
+<div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="shape_8h_aeaa0675a0fcc7fac6f0f93c4baf07f61_cgraph.png" border="0" usemap="#ashape_8h_aeaa0675a0fcc7fac6f0f93c4baf07f61_cgraph" alt=""/></div>
+<map name="ashape_8h_aeaa0675a0fcc7fac6f0f93c4baf07f61_cgraph" id="ashape_8h_aeaa0675a0fcc7fac6f0f93c4baf07f61_cgraph">
+<area shape="rect" title="Функция для смещения Фигуры в новый центр" alt="" coords="5,31,100,55"/>
+<area shape="rect" href="point_8c.html#a54395281002daaec90cb8e4ed35ae59d" title="Сеттер абсциссы точки" alt="" coords="148,5,201,30"/>
+<area shape="poly" title=" " alt="" coords="100,31,132,24,133,29,101,36"/>
+<area shape="rect" href="point_8c.html#acae2d9733466e1fd907871c1770f0765" title="Сеттер ордианты точки" alt="" coords="148,55,201,79"/>
+<area shape="poly" title=" " alt="" coords="101,50,133,56,132,61,100,55"/>
+</map>
+</div>
 
 </div>
 </div>

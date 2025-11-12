@@ -1,9 +1,22 @@
 <map id="inheritance_example" name="inheritance_example">
-<area shape="rect" id="Node000001" title="Пример наследования" alt="" coords="5,55,145,79"/>
-<area shape="rect" id="Node000002" href="$circle_8c.html#a2ab76dac5bd2421190ec375e04777013" title="Конструктор для круга" alt="" coords="193,5,288,30"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,51,181,32,183,38,120,57"/>
-<area shape="rect" id="Node000003" href="$shape_8c.html#ad53b3e24a14308fc4938f2dc8a92f6cd" title="Метод для смещения Фигуры в новый центр" alt="" coords="214,55,266,79"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,64,199,64,199,70,145,70"/>
-<area shape="rect" id="Node000004" href="$rect_8c.html#aa5c8547a3c5ba804e4d4e527553df165" title="Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL." alt="" coords="197,104,284,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="120,77,183,96,181,102,118,83"/>
+<area shape="rect" id="Node000001" title="Пример наследования" alt="" coords="5,129,145,154"/>
+<area shape="rect" id="Node000002" href="$circle_8c.html#a2ab76dac5bd2421190ec375e04777013" title="Конструктор для круга" alt="" coords="198,55,294,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,126,200,84,203,89,106,131"/>
+<area shape="rect" id="Node000006" href="$shape_8c.html#a5ebcb7c43128b4b654d998f39baf4817" title="Деструктор Фигуры" alt="" coords="193,153,299,178"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="146,149,178,153,177,159,145,154"/>
+<area shape="rect" id="Node000008" href="$shape_8c.html#ad53b3e24a14308fc4938f2dc8a92f6cd" title="Метод для смещения Фигуры в новый центр" alt="" coords="220,203,272,227"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="107,152,207,196,205,200,105,157"/>
+<area shape="rect" id="Node000009" href="$rect_8c.html#aa5c8547a3c5ba804e4d4e527553df165" title="Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL." alt="" coords="203,104,289,129"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="145,129,187,122,188,128,146,134"/>
+<area shape="rect" id="Node000003" href="$point_8c.html#ad3f5dca9fde221e2aa96f81419290e1d" title="Конструктор точки" alt="" coords="348,5,400,30"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="279,52,332,31,334,36,281,57"/>
+<area shape="rect" id="Node000004" href="$point_8c.html#a54395281002daaec90cb8e4ed35ae59d" title="Сеттер абсциссы точки" alt="" coords="347,55,400,79"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="294,64,331,64,331,70,294,70"/>
+<area shape="rect" id="Node000005" href="$point_8c.html#acae2d9733466e1fd907871c1770f0765" title="Сеттер ордианты точки" alt="" coords="347,104,400,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="281,77,333,98,331,103,279,82"/>
+<area shape="rect" id="Node000007" href="$point_8c.html#a5686aa9373c029ef7f1404cfc973e7ef" title="Деструктор точки" alt="" coords="348,153,399,178"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="300,163,333,163,333,168,300,168"/>
+<area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="276,101,297,89,347,39,351,43,301,93,279,106"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="279,101,331,80,333,85,281,106"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="290,114,331,114,331,119,290,119"/>
 </map>

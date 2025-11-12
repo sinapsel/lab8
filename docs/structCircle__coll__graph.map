@@ -1,8 +1,10 @@
 <map id="Circle" name="Circle">
-<area shape="rect" id="Node000001" title="Круг" alt="" coords="5,164,64,227"/>
-<area shape="rect" id="Node000002" href="$structShape.html" title="Абстрактная Фигура" alt="" coords="82,5,129,88"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,71,67,91,53,113,42,148,37,147,48,111,63,88,80,68"/>
-<area shape="rect" id="Node000003" href="$structShapeVTable.html" title="Таблица виртуальных функций Фигуры" alt="" coords="110,164,197,227"/>
-<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="99,88,99,114,104,139,110,150,105,152,99,141,93,114,94,88"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="152,164,150,139,144,113,135,93,140,91,149,111,155,138,157,164"/>
+<area shape="rect" id="Node000001" title="Круг" alt="" coords="5,289,64,353"/>
+<area shape="rect" id="Node000002" href="$structShape.html" title="Абстрактная Фигура" alt="" coords="82,150,129,213"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,203,67,219,53,239,42,274,36,272,48,236,63,216,80,199"/>
+<area shape="rect" id="Node000003" href="$structShapeVTable.html" title="Таблица виртуальных функций Фигуры" alt="" coords="110,289,197,353"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="101,213,99,239,104,264,110,275,105,278,99,266,94,239,95,213"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="152,290,151,264,144,238,137,223,141,221,149,236,156,263,158,289"/>
+<area shape="rect" id="Node000004" href="$structPoint2.html" title="Точка на двумерной плоскости" alt="" coords="82,5,129,88"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="108,88,108,133,103,133,103,88"/>
 </map>

@@ -1,9 +1,22 @@
 <map id="dyn_polymorphism_example" name="dyn_polymorphism_example">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,192,79"/>
-<area shape="rect" id="Node000002" href="$circle_8c.html#a2ab76dac5bd2421190ec375e04777013" title="Конструктор для круга" alt="" coords="240,5,335,30"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,51,224,31,225,37,149,57"/>
-<area shape="rect" id="Node000003" href="$shape_8c.html#aeac78244a8b30ffee41ae0ac60356bd7" title="Метод для отрисовки Фигуры" alt="" coords="263,55,312,79"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,64,247,64,247,70,192,70"/>
-<area shape="rect" id="Node000004" href="$rect_8c.html#aa5c8547a3c5ba804e4d4e527553df165" title="Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL." alt="" coords="244,104,330,129"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,77,230,99,229,104,148,83"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,192,154"/>
+<area shape="rect" id="Node000002" href="$circle_8c.html#a2ab76dac5bd2421190ec375e04777013" title="Конструктор для круга" alt="" coords="245,55,340,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,126,243,83,245,88,134,131"/>
+<area shape="rect" id="Node000006" href="$shape_8c.html#a5ebcb7c43128b4b654d998f39baf4817" title="Деструктор Фигуры" alt="" coords="240,153,346,178"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="193,151,224,155,224,160,192,156"/>
+<area shape="rect" id="Node000008" href="$shape_8c.html#aeac78244a8b30ffee41ae0ac60356bd7" title="Метод для отрисовки Фигуры" alt="" coords="268,203,318,227"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="135,152,254,198,252,203,133,157"/>
+<area shape="rect" id="Node000009" href="$rect_8c.html#aa5c8547a3c5ba804e4d4e527553df165" title="Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL." alt="" coords="250,104,336,129"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="192,127,234,121,235,127,193,132"/>
+<area shape="rect" id="Node000003" href="$point_8c.html#ad3f5dca9fde221e2aa96f81419290e1d" title="Конструктор точки" alt="" coords="394,5,447,30"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="326,52,379,31,381,36,328,57"/>
+<area shape="rect" id="Node000004" href="$point_8c.html#a54395281002daaec90cb8e4ed35ae59d" title="Сеттер абсциссы точки" alt="" coords="394,55,447,79"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="341,64,378,64,378,70,341,70"/>
+<area shape="rect" id="Node000005" href="$point_8c.html#acae2d9733466e1fd907871c1770f0765" title="Сеттер ордианты точки" alt="" coords="394,104,447,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="328,77,380,98,378,103,326,82"/>
+<area shape="rect" id="Node000007" href="$point_8c.html#a5686aa9373c029ef7f1404cfc973e7ef" title="Деструктор точки" alt="" coords="396,153,446,178"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="347,163,380,163,380,168,347,168"/>
+<area shape="poly" id="edge9_Node000009_Node000003" title=" " alt="" coords="323,101,344,89,394,39,398,43,348,93,326,106"/>
+<area shape="poly" id="edge10_Node000009_Node000004" title=" " alt="" coords="326,101,378,80,380,85,328,106"/>
+<area shape="poly" id="edge11_Node000009_Node000005" title=" " alt="" coords="337,114,378,114,378,119,337,119"/>
 </map>

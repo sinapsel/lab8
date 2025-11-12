@@ -1,5 +1,6 @@
 var point_8h =
 [
+    [ "pfree", "point_8h.html#a5686aa9373c029ef7f1404cfc973e7ef", null ],
     [ "pgetx", "point_8h.html#afc5556069d503479f75cd54d69ed854f", null ],
     [ "pgety", "point_8h.html#a0c77945185d6cd0d72dfdd645dc97bf5", null ],
     [ "pnew", "point_8h.html#ad3f5dca9fde221e2aa96f81419290e1d", null ],

@@ -1,0 +1,9 @@
+<map id="rect_create" name="rect_create">
+<area shape="rect" id="Node000001" title="Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL." alt="" coords="5,55,92,79"/>
+<area shape="rect" id="Node000002" href="$point_8c.html#ad3f5dca9fde221e2aa96f81419290e1d" title="Конструктор точки" alt="" coords="140,5,192,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,52,124,32,127,37,81,56"/>
+<area shape="rect" id="Node000003" href="$point_8c.html#a54395281002daaec90cb8e4ed35ae59d" title="Сеттер абсциссы точки" alt="" coords="140,55,193,79"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="92,64,124,64,124,70,92,70"/>
+<area shape="rect" id="Node000004" href="$point_8c.html#acae2d9733466e1fd907871c1770f0765" title="Сеттер ордианты точки" alt="" coords="140,104,193,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="81,78,126,97,124,102,79,82"/>
+</map>

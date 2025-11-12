@@ -1,7 +1,19 @@
 <map id="pnew" name="pnew">
-<area shape="rect" id="Node000001" title="Конструктор точки" alt="" coords="303,5,355,30"/>
-<area shape="rect" id="Node000002" href="$main_8c.html#ae25b9fd7af24305d205bb581d220877b" title="Пример инкапсуляции" alt="" coords="103,5,255,30"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="287,20,255,20,255,15,287,15"/>
-<area shape="rect" id="Node000003" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,55,30"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,20,55,20,55,15,87,15"/>
+<area shape="rect" id="Node000001" title="Конструктор точки" alt="" coords="480,55,533,79"/>
+<area shape="rect" id="Node000002" href="$circle_8c.html#a2ab76dac5bd2421190ec375e04777013" title="Конструктор для круга" alt="" coords="337,55,432,79"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="465,70,433,70,433,64,465,64"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#ae25b9fd7af24305d205bb581d220877b" title="Пример инкапсуляции" alt="" coords="120,104,272,129"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="466,84,433,94,350,107,273,115,272,110,350,102,432,88,465,79"/>
+<area shape="rect" id="Node000007" href="$rect_8c.html#aa5c8547a3c5ba804e4d4e527553df165" title="Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL." alt="" coords="342,5,428,30"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="465,53,416,33,418,28,467,48"/>
+<area shape="rect" id="Node000003" href="$main_8c.html#a33c092a6e331f446c7648bf9d1172281" title=" " alt="" coords="103,55,289,79"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="321,70,290,70,290,64,321,64"/>
+<area shape="rect" id="Node000005" href="$main_8c.html#ad1410c203e4dc0e49585742cbe9c1405" title="Пример наследования" alt="" coords="126,5,266,30"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="321,53,245,33,247,28,322,48"/>
+<area shape="rect" id="Node000004" href="$main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,55,55,79"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,70,55,70,55,64,87,64"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="132,37,103,46,56,61,54,56,102,40,130,32"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="130,102,102,94,54,78,56,73,103,88,132,97"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="327,35,247,57,245,51,326,30"/>
+<area shape="poly" id="edge10_Node000007_Node000005" title=" " alt="" coords="326,20,266,20,266,15,326,15"/>
 </map>

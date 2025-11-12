@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vtable_0',['vtable',['../structShape.html#a96b8700cda3da190cfdb142b08889ab7',1,'Shape']]]
+  ['radius_0',['radius',['../structCircle.html#a897ad7e556f1e90142093c69079d8b05',1,'Circle']]]
 ];

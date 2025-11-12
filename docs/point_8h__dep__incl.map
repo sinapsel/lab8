@@ -1,7 +1,22 @@
 <map id="include/point.h" name="include/point.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="30,5,134,30"/>
-<area shape="rect" id="Node000002" href="$main_8c.html" title=" " alt="" coords="5,78,66,103"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,45,45,79,41,76,64,42"/>
-<area shape="rect" id="Node000003" href="$point_8c.html" title=" " alt="" coords="90,78,171,103"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,42,125,76,120,79,97,45"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="386,5,490,30"/>
+<area shape="rect" id="Node000002" href="$shape_8h.html" title="Модуль фигуры" alt="" coords="209,78,321,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="396,39,294,80,292,75,394,34"/>
+<area shape="rect" id="Node000004" href="$main_8c.html" title=" " alt="" coords="235,223,295,248"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="444,45,445,75,442,110,433,145,415,177,395,192,364,206,296,229,295,223,362,201,392,187,411,174,428,143,437,109,439,75,439,46"/>
+<area shape="rect" id="Node000009" href="$point_8c.html" title=" " alt="" coords="476,78,558,103"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="464,38,506,76,502,80,461,42"/>
+<area shape="rect" id="Node000003" href="$circle_8h.html" title=" " alt="" coords="5,151,114,175"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="218,111,94,153,93,148,216,106"/>
+<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="268,118,268,223,262,223,262,118"/>
+<area shape="rect" id="Node000006" href="$rect_8h.html" title=" " alt="" coords="302,151,401,175"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="293,111,339,148,336,152,289,115"/>
+<area shape="rect" id="Node000008" href="$shape_8c.html" title=" " alt="" coords="138,151,227,175"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="241,115,197,152,194,148,238,111"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="108,178,235,221,233,226,107,183"/>
+<area shape="rect" id="Node000005" href="$circle_8c.html" title="Moudle for circle." alt="" coords="17,223,102,248"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="62,191,62,223,57,223,57,191"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="327,188,281,225,277,221,324,183"/>
+<area shape="rect" id="Node000007" href="$rect_8c.html" title=" " alt="" coords="319,223,394,248"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="356,191,359,223,353,223,351,191"/>
 </map>
