@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['x_0',['x',['../structPoint2.html#ab40b3a56d6bcfa29be01dbbd2b66403e',1,'Point2::x'],['../structShape.html#ac1bbc96c15ee1218a5bfc38cde1014fa',1,'Shape::x']]]
+  ['vft_5fshape_5ft_0',['vft_shape_t',['../shape_8h.html#a46ae5e898b3cc9b5374d5160948f22b7',1,'shape.h']]],
+  ['vtable_1',['vtable',['../structShape.html#a96b8700cda3da190cfdb142b08889ab7',1,'Shape']]]
 ];

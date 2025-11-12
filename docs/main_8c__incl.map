@@ -1,7 +1,7 @@
-<map id="src/main.c" name="src/main.c">
-<area shape="rect" id="Node000001" title=" " alt="" coords="103,5,185,30"/>
+<map id="main.c" name="main.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="114,5,174,30"/>
 <area shape="rect" id="Node000002" title=" " alt="" coords="17,223,77,248"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,29,58,46,36,61,20,79,13,95,9,111,11,146,22,180,35,208,30,211,17,182,6,147,4,111,8,93,15,77,33,57,55,42,102,24"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,26,63,43,39,59,20,79,13,95,9,111,11,146,22,180,35,208,30,211,17,182,6,147,4,111,8,93,15,77,36,54,61,39,113,21"/>
 <area shape="rect" id="Node000003" href="$point_8h.html" title=" " alt="" coords="216,151,275,175"/>
 <area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,29,182,50,205,76,223,106,238,135,233,137,219,109,201,80,178,54,156,33"/>
 <area shape="rect" id="Node000005" href="$shape_8h.html" title="Модуль фигуры" alt="" coords="111,151,178,175"/>

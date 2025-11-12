@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['radius_0',['radius',['../structCircle.html#a897ad7e556f1e90142093c69079d8b05',1,'Circle']]],
-  ['rect_1',['Rect',['../structRect.html',1,'']]],
-  ['rect_2ec_2',['rect.c',['../rect_8c.html',1,'']]],
-  ['rect_2eh_3',['rect.h',['../rect_8h.html',1,'']]],
-  ['rect_5fcreate_4',['rect_create',['../rect_8c.html#aa5c8547a3c5ba804e4d4e527553df165',1,'rect_create(int x, int y, int w, int h):&#160;rect.c'],['../rect_8h.html#aa5c8547a3c5ba804e4d4e527553df165',1,'rect_create(int x, int y, int w, int h):&#160;rect.c']]],
-  ['rect_5ft_5',['rect_t',['../rect_8h.html#ae613c697c4133ca8304cfcb50507eac3',1,'rect.h']]]
+  ['main_0',['main',['../main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.c']]],
+  ['main_2ec_1',['main.c',['../main_8c.html',1,'']]],
+  ['move_2',['move',['../structShapeVTable.html#a898eaa2462f30688bb3bfff0538a1815',1,'ShapeVTable::move'],['../shape_8c.html#ad53b3e24a14308fc4938f2dc8a92f6cd',1,'move(shape_t *c, int x, int y):&#160;shape.c'],['../shape_8h.html#ad53b3e24a14308fc4938f2dc8a92f6cd',1,'move(shape_t *c, int x, int y):&#160;shape.c']]],
+  ['move_5ffunc_5ft_3',['move_func_t',['../shape_8h.html#a84fe9d96297c72bd46348cf3dd51f24f',1,'shape.h']]]
 ];

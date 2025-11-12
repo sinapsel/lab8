@@ -1,5 +1,5 @@
-<map id="src/rect.h" name="src/rect.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="40,5,116,30"/>
+<map id="include/rect.h" name="include/rect.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="29,5,127,30"/>
 <area shape="rect" id="Node000002" href="$shape_8h.html" title="Модуль фигуры" alt="" coords="44,78,112,103"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,31,81,62,76,62,76,31"/>
 <area shape="rect" id="Node000003" title=" " alt="" coords="5,151,66,175"/>

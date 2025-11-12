@@ -1,0 +1,26 @@
+var ff_01copy_8c =
+[
+    [ "ShapeVTable", "structShapeVTable.html", "structShapeVTable" ],
+    [ "Shape", "structShape.html", "structShape" ],
+    [ "Circle", "structCircle.html", "structCircle" ],
+    [ "Rect", "structRect.html", "structRect" ],
+    [ "CIRCLE", "ff_01copy_8c.html#a7bd66b86b5fe6807df77c720f4a47491", null ],
+    [ "CIRCLE_CREATE", "ff_01copy_8c.html#aafea4e3933366f607694f03ed0b21d01", null ],
+    [ "CIRCLE_PRINT", "ff_01copy_8c.html#a84a6527f5e35173dd00ad484ba0361c2", null ],
+    [ "CONCAT", "ff_01copy_8c.html#a88fa737059e67b4b17ec980e5877361e", null ],
+    [ "CONCAT3", "ff_01copy_8c.html#a868df059137332f71b6617da5f7d92b6", null ],
+    [ "DECLARE_CIRCLE", "ff_01copy_8c.html#ab7e6e18d34b52c70156496c4bc1ba608", null ],
+    [ "IMPLEMENT_CIRCLE", "ff_01copy_8c.html#a6827f1910d910dbcc6e34f30c102eedc", null ],
+    [ "METHOD", "ff_01copy_8c.html#add6eab429018dc239cd6dfeba8c9fc8a", null ],
+    [ "pow2", "ff_01copy_8c.html#a949019744902704184855660869d1a35", null ],
+    [ "circle_t", "ff_01copy_8c.html#ab800d4e1144fd90877a6134a1467b31a", null ],
+    [ "rect_t", "ff_01copy_8c.html#ae613c697c4133ca8304cfcb50507eac3", null ],
+    [ "circle_create", "ff_01copy_8c.html#a2ab76dac5bd2421190ec375e04777013", null ],
+    [ "draw", "ff_01copy_8c.html#aeac78244a8b30ffee41ae0ac60356bd7", null ],
+    [ "main", "ff_01copy_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4", null ],
+    [ "move", "ff_01copy_8c.html#ad53b3e24a14308fc4938f2dc8a92f6cd", null ],
+    [ "pow2d", "ff_01copy_8c.html#a77be8e520ba3385065a7c0b233bfab09", null ],
+    [ "pow2f", "ff_01copy_8c.html#a0a99523630f5f9cc0399313566fb8804", null ],
+    [ "pow2i", "ff_01copy_8c.html#a342b41a38820dd95b5131f8abf684177", null ],
+    [ "rect_create", "ff_01copy_8c.html#aa5c8547a3c5ba804e4d4e527553df165", null ]
+];

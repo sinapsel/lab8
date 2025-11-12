@@ -1,0 +1,11 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,55,105"/>
+<area shape="rect" id="Node000002" href="$d_8c.html#a2ab76dac5bd2421190ec375e04777013" title="Конструктор для круга" alt="" coords="103,5,198,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,77,101,41,110,36,112,40,104,45,50,82"/>
+<area shape="rect" id="Node000003" href="$d_8c.html#aeac78244a8b30ffee41ae0ac60356bd7" title="Метод для отрисовки Фигуры" alt="" coords="126,55,175,79"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="55,85,110,73,111,78,56,90"/>
+<area shape="rect" id="Node000004" href="$d_8c.html#ad53b3e24a14308fc4938f2dc8a92f6cd" title="Метод для смещения Фигуры в новый центр" alt="" coords="124,104,176,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="56,95,109,106,108,111,55,100"/>
+<area shape="rect" id="Node000005" href="$d_8c.html#aa5c8547a3c5ba804e4d4e527553df165" title="Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL." alt="" coords="107,153,194,178"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="51,103,104,138,112,143,110,148,101,143,48,107"/>
+</map>

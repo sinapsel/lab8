@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "Lab8 test", "index.html", [
+    [ "Информатика (Основы программирования)", "index.html", "index" ],
     [ "Ошибки", "bug.html", null ],
     [ "Структуры данных", "annotated.html", [
       [ "Структуры данных", "annotated.html", "annotated_dup" ],

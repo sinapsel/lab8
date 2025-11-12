@@ -1,0 +1,718 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Lab8 test: Файл /home/mark/work/kaf22/cs1/slides/lab008/ff copy.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Lab8 test<span id="projectnumber">&#160;1.0.1</span>
+   </div>
+   <div id="projectbrief">Demonstartion of OOP in C</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('ff_01copy_8c.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Структуры данных</a> &#124;
+<a href="#define-members">Макросы</a> &#124;
+<a href="#typedef-members">Определения типов</a> &#124;
+<a href="#func-members">Функции</a>  </div>
+  <div class="headertitle"><div class="title">Файл /home/mark/work/kaf22/cs1/slides/lab008/ff copy.c</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;math.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для ff copy.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="ff_01copy_8c__incl.png" border="0" usemap="#a_2home_2mark_2work_2kaf22_2cs1_2slides_2lab008_2ff_01copy_8c" alt=""/></div>
+<map name="a_2home_2mark_2work_2kaf22_2cs1_2slides_2lab008_2ff_01copy_8c" id="a_2home_2mark_2work_2kaf22_2cs1_2slides_2lab008_2ff_01copy_8c">
+<area shape="rect" title=" " alt="" coords="43,5,202,58"/>
+<area shape="rect" title=" " alt="" coords="5,106,69,131"/>
+<area shape="poly" title=" " alt="" coords="98,61,61,97,58,93,94,57"/>
+<area shape="rect" title=" " alt="" coords="92,106,152,131"/>
+<area shape="poly" title=" " alt="" coords="125,59,125,90,120,90,120,59"/>
+<area shape="rect" title=" " alt="" coords="177,106,238,131"/>
+<area shape="poly" title=" " alt="" coords="150,57,187,93,183,97,147,61"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Структуры данных</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structShapeVTable.html">ShapeVTable</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Таблица виртуальных функций Фигуры  <a href="structShapeVTable.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structShape.html">Shape</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Абстрактная Фигура  <a href="structShape.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCircle.html">Circle</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Круг  <a href="structCircle.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRect.html">Rect</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Прямоугольник.  <a href="structRect.html#details">Подробнее...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Макросы</h2></td></tr>
+<tr class="memitem:a949019744902704184855660869d1a35" id="r_a949019744902704184855660869d1a35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a949019744902704184855660869d1a35">pow2</a>(X)</td></tr>
+<tr class="separator:a949019744902704184855660869d1a35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88fa737059e67b4b17ec980e5877361e" id="r_a88fa737059e67b4b17ec980e5877361e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a88fa737059e67b4b17ec980e5877361e">CONCAT</a>(a,  b)</td></tr>
+<tr class="separator:a88fa737059e67b4b17ec980e5877361e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a868df059137332f71b6617da5f7d92b6" id="r_a868df059137332f71b6617da5f7d92b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a868df059137332f71b6617da5f7d92b6">CONCAT3</a>(a,  b,  c)</td></tr>
+<tr class="separator:a868df059137332f71b6617da5f7d92b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bd66b86b5fe6807df77c720f4a47491" id="r_a7bd66b86b5fe6807df77c720f4a47491"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7bd66b86b5fe6807df77c720f4a47491">CIRCLE</a>(b)</td></tr>
+<tr class="separator:a7bd66b86b5fe6807df77c720f4a47491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add6eab429018dc239cd6dfeba8c9fc8a" id="r_add6eab429018dc239cd6dfeba8c9fc8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#add6eab429018dc239cd6dfeba8c9fc8a">METHOD</a>(type,  name)</td></tr>
+<tr class="separator:add6eab429018dc239cd6dfeba8c9fc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7e6e18d34b52c70156496c4bc1ba608" id="r_ab7e6e18d34b52c70156496c4bc1ba608"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7e6e18d34b52c70156496c4bc1ba608">DECLARE_CIRCLE</a>(type)</td></tr>
+<tr class="separator:ab7e6e18d34b52c70156496c4bc1ba608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6827f1910d910dbcc6e34f30c102eedc" id="r_a6827f1910d910dbcc6e34f30c102eedc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6827f1910d910dbcc6e34f30c102eedc">IMPLEMENT_CIRCLE</a>(type,  format_specifier)</td></tr>
+<tr class="separator:a6827f1910d910dbcc6e34f30c102eedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafea4e3933366f607694f03ed0b21d01" id="r_aafea4e3933366f607694f03ed0b21d01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafea4e3933366f607694f03ed0b21d01">CIRCLE_CREATE</a>(type,  x,  y,  radius)</td></tr>
+<tr class="separator:aafea4e3933366f607694f03ed0b21d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84a6527f5e35173dd00ad484ba0361c2" id="r_a84a6527f5e35173dd00ad484ba0361c2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a84a6527f5e35173dd00ad484ba0361c2">CIRCLE_PRINT</a>(circle,  type)</td></tr>
+<tr class="separator:a84a6527f5e35173dd00ad484ba0361c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Определения типов</h2></td></tr>
+<tr class="memitem:ab800d4e1144fd90877a6134a1467b31a" id="r_ab800d4e1144fd90877a6134a1467b31a"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structCircle.html">Circle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab800d4e1144fd90877a6134a1467b31a">circle_t</a></td></tr>
+<tr class="separator:ab800d4e1144fd90877a6134a1467b31a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae613c697c4133ca8304cfcb50507eac3" id="r_ae613c697c4133ca8304cfcb50507eac3"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structRect.html">Rect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae613c697c4133ca8304cfcb50507eac3">rect_t</a></td></tr>
+<tr class="separator:ae613c697c4133ca8304cfcb50507eac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Функции</h2></td></tr>
+<tr class="memitem:aeac78244a8b30ffee41ae0ac60356bd7" id="r_aeac78244a8b30ffee41ae0ac60356bd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeac78244a8b30ffee41ae0ac60356bd7">draw</a> (const <a class="el" href="shape_8h.html#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a> *c)</td></tr>
+<tr class="memdesc:aeac78244a8b30ffee41ae0ac60356bd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для отрисовки Фигуры  <br /></td></tr>
+<tr class="separator:aeac78244a8b30ffee41ae0ac60356bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53b3e24a14308fc4938f2dc8a92f6cd" id="r_ad53b3e24a14308fc4938f2dc8a92f6cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad53b3e24a14308fc4938f2dc8a92f6cd">move</a> (<a class="el" href="shape_8h.html#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a> *c, int x, int y)</td></tr>
+<tr class="memdesc:ad53b3e24a14308fc4938f2dc8a92f6cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Метод для смещения Фигуры в новый центр  <br /></td></tr>
+<tr class="separator:ad53b3e24a14308fc4938f2dc8a92f6cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab76dac5bd2421190ec375e04777013" id="r_a2ab76dac5bd2421190ec375e04777013"><td class="memItemLeft" align="right" valign="top"><a class="el" href="circle_8h.html#ab800d4e1144fd90877a6134a1467b31a">circle_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ab76dac5bd2421190ec375e04777013">circle_create</a> (int x, int y, int radius)</td></tr>
+<tr class="memdesc:a2ab76dac5bd2421190ec375e04777013"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор для круга  <br /></td></tr>
+<tr class="separator:a2ab76dac5bd2421190ec375e04777013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5c8547a3c5ba804e4d4e527553df165" id="r_aa5c8547a3c5ba804e4d4e527553df165"><td class="memItemLeft" align="right" valign="top"><a class="el" href="rect_8h.html#ae613c697c4133ca8304cfcb50507eac3">rect_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5c8547a3c5ba804e4d4e527553df165">rect_create</a> (int x, int y, int w, int h)</td></tr>
+<tr class="memdesc:aa5c8547a3c5ba804e4d4e527553df165"><td class="mdescLeft">&#160;</td><td class="mdescRight">Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL.  <br /></td></tr>
+<tr class="separator:aa5c8547a3c5ba804e4d4e527553df165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a99523630f5f9cc0399313566fb8804" id="r_a0a99523630f5f9cc0399313566fb8804"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a99523630f5f9cc0399313566fb8804">pow2f</a> (float x)</td></tr>
+<tr class="separator:a0a99523630f5f9cc0399313566fb8804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77be8e520ba3385065a7c0b233bfab09" id="r_a77be8e520ba3385065a7c0b233bfab09"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77be8e520ba3385065a7c0b233bfab09">pow2d</a> (double x)</td></tr>
+<tr class="separator:a77be8e520ba3385065a7c0b233bfab09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a342b41a38820dd95b5131f8abf684177" id="r_a342b41a38820dd95b5131f8abf684177"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a342b41a38820dd95b5131f8abf684177">pow2i</a> (int x)</td></tr>
+<tr class="separator:a342b41a38820dd95b5131f8abf684177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4" id="r_ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
+<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Макросы</h2>
+<a id="a7bd66b86b5fe6807df77c720f4a47491" name="a7bd66b86b5fe6807df77c720f4a47491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bd66b86b5fe6807df77c720f4a47491">&#9670;&#160;</a></span>CIRCLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CIRCLE</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Макроопределение:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a868df059137332f71b6617da5f7d92b6">CONCAT3</a>(<a class="code hl_struct" href="structCircle.html">Circle</a>, _, b)</div>
+<div class="ttc" id="aff_01copy_8c_html_a868df059137332f71b6617da5f7d92b6"><div class="ttname"><a href="#a868df059137332f71b6617da5f7d92b6">CONCAT3</a></div><div class="ttdeci">#define CONCAT3(a, b, c)</div><div class="ttdef"><b>Определения</b> ff copy.c:96</div></div>
+<div class="ttc" id="astructCircle_html"><div class="ttname"><a href="structCircle.html">Circle</a></div><div class="ttdoc">Круг</div><div class="ttdef"><b>Определения</b> circle.h:10</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aafea4e3933366f607694f03ed0b21d01" name="aafea4e3933366f607694f03ed0b21d01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafea4e3933366f607694f03ed0b21d01">&#9670;&#160;</a></span>CIRCLE_CREATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CIRCLE_CREATE</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>radius</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Макроопределение:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#add6eab429018dc239cd6dfeba8c9fc8a">METHOD</a>(type, Circle_create)(x, y, radius)</div>
+<div class="ttc" id="aff_01copy_8c_html_add6eab429018dc239cd6dfeba8c9fc8a"><div class="ttname"><a href="#add6eab429018dc239cd6dfeba8c9fc8a">METHOD</a></div><div class="ttdeci">#define METHOD(type, name)</div><div class="ttdef"><b>Определения</b> ff copy.c:98</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a84a6527f5e35173dd00ad484ba0361c2" name="a84a6527f5e35173dd00ad484ba0361c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84a6527f5e35173dd00ad484ba0361c2">&#9670;&#160;</a></span>CIRCLE_PRINT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CIRCLE_PRINT</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>circle</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>type</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Макроопределение:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#add6eab429018dc239cd6dfeba8c9fc8a">METHOD</a>(type, Circle_print)(circle)</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a88fa737059e67b4b17ec980e5877361e" name="a88fa737059e67b4b17ec980e5877361e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88fa737059e67b4b17ec980e5877361e">&#9670;&#160;</a></span>CONCAT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CONCAT</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Макроопределение:</b><div class="fragment"><div class="line">a##b</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a868df059137332f71b6617da5f7d92b6" name="a868df059137332f71b6617da5f7d92b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a868df059137332f71b6617da5f7d92b6">&#9670;&#160;</a></span>CONCAT3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define CONCAT3</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>c</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Макроопределение:</b><div class="fragment"><div class="line">a##b##c</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab7e6e18d34b52c70156496c4bc1ba608" name="ab7e6e18d34b52c70156496c4bc1ba608"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7e6e18d34b52c70156496c4bc1ba608">&#9670;&#160;</a></span>DECLARE_CIRCLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DECLARE_CIRCLE</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Макроопределение:</b><div class="fragment"><div class="line">    <span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_define" href="#a88fa737059e67b4b17ec980e5877361e">CONCAT</a>(Circle_, type) <a class="code hl_define" href="#a88fa737059e67b4b17ec980e5877361e">CONCAT</a>(Circle_, type); \</div>
+<div class="line">    <span class="keyword">struct </span><a class="code hl_define" href="#a88fa737059e67b4b17ec980e5877361e">CONCAT</a>(Circle_, type) { \</div>
+<div class="line">        type x; \</div>
+<div class="line">        type y; \</div>
+<div class="line">        type radius; \</div>
+<div class="line">    }; \</div>
+<div class="line">    \</div>
+<div class="line">    CONCAT(Circle_, type)* <a class="code hl_define" href="#add6eab429018dc239cd6dfeba8c9fc8a">METHOD</a>(type, Circle_create)(type x, type y, type radius); \</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code hl_define" href="#add6eab429018dc239cd6dfeba8c9fc8a">METHOD</a>(type, Circle_print)(<span class="keyword">const</span> <a class="code hl_define" href="#a88fa737059e67b4b17ec980e5877361e">CONCAT</a>(Circle_, type)* circle);</div>
+<div class="ttc" id="aff_01copy_8c_html_a88fa737059e67b4b17ec980e5877361e"><div class="ttname"><a href="#a88fa737059e67b4b17ec980e5877361e">CONCAT</a></div><div class="ttdeci">#define CONCAT(a, b)</div><div class="ttdef"><b>Определения</b> ff copy.c:95</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6827f1910d910dbcc6e34f30c102eedc" name="a6827f1910d910dbcc6e34f30c102eedc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6827f1910d910dbcc6e34f30c102eedc">&#9670;&#160;</a></span>IMPLEMENT_CIRCLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IMPLEMENT_CIRCLE</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>format_specifier</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Макроопределение:</b><div class="fragment"><div class="line">    <a class="code hl_define" href="#a88fa737059e67b4b17ec980e5877361e">CONCAT</a>(Circle_, type)* <a class="code hl_define" href="#add6eab429018dc239cd6dfeba8c9fc8a">METHOD</a>(type, Circle_create)(type x, type y, type radius) { \</div>
+<div class="line">        CONCAT(Circle_, type)* circle = malloc(<span class="keyword">sizeof</span>(<a class="code hl_define" href="#a88fa737059e67b4b17ec980e5877361e">CONCAT</a>(Circle_, type))); \</div>
+<div class="line">        circle-&gt;x = x; \</div>
+<div class="line">        circle-&gt;y = y; \</div>
+<div class="line">        circle-&gt;radius = radius; \</div>
+<div class="line">        <span class="keywordflow">return</span> circle; \</div>
+<div class="line">    } \</div>
+<div class="line">    \</div>
+<div class="line">    <span class="keywordtype">void</span> <a class="code hl_define" href="#add6eab429018dc239cd6dfeba8c9fc8a">METHOD</a>(type, Circle_print)(<span class="keyword">const</span> <a class="code hl_define" href="#a88fa737059e67b4b17ec980e5877361e">CONCAT</a>(Circle_, type)* circle) { \</div>
+<div class="line">        printf(<span class="stringliteral">&quot;Circle(&quot;</span> #type <span class="stringliteral">&quot;): center=(&quot;</span> format_specifier <span class="stringliteral">&quot;, &quot;</span> format_specifier <span class="stringliteral">&quot;), radius=&quot;</span> format_specifier <span class="stringliteral">&quot;\n&quot;</span>, \</div>
+<div class="line">               circle-&gt;x, circle-&gt;y, circle-&gt;radius); \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="add6eab429018dc239cd6dfeba8c9fc8a" name="add6eab429018dc239cd6dfeba8c9fc8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add6eab429018dc239cd6dfeba8c9fc8a">&#9670;&#160;</a></span>METHOD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define METHOD</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>name</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Макроопределение:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a868df059137332f71b6617da5f7d92b6">CONCAT3</a>(type, _, name)</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a949019744902704184855660869d1a35" name="a949019744902704184855660869d1a35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a949019744902704184855660869d1a35">&#9670;&#160;</a></span>pow2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define pow2</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>X</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Макроопределение:</b><div class="fragment"><div class="line">    _Generic((X),     \</div>
+<div class="line">    <span class="keywordtype">float</span>: <a class="code hl_function" href="#a0a99523630f5f9cc0399313566fb8804">pow2f</a>, \</div>
+<div class="line">    <span class="keywordtype">double</span>: <a class="code hl_function" href="#a77be8e520ba3385065a7c0b233bfab09">pow2d</a>, \</div>
+<div class="line">    <span class="keywordtype">int</span>: <a class="code hl_function" href="#a342b41a38820dd95b5131f8abf684177">pow2i</a>,     \</div>
+<div class="line">    <span class="keywordflow">default</span>: <a class="code hl_function" href="#a77be8e520ba3385065a7c0b233bfab09">pow2d</a>   \</div>
+<div class="line">    )(X)</div>
+<div class="ttc" id="aff_01copy_8c_html_a0a99523630f5f9cc0399313566fb8804"><div class="ttname"><a href="#a0a99523630f5f9cc0399313566fb8804">pow2f</a></div><div class="ttdeci">float pow2f(float x)</div><div class="ttdef"><b>Определения</b> ff copy.c:83</div></div>
+<div class="ttc" id="aff_01copy_8c_html_a342b41a38820dd95b5131f8abf684177"><div class="ttname"><a href="#a342b41a38820dd95b5131f8abf684177">pow2i</a></div><div class="ttdeci">int pow2i(int x)</div><div class="ttdef"><b>Определения</b> ff copy.c:85</div></div>
+<div class="ttc" id="aff_01copy_8c_html_a77be8e520ba3385065a7c0b233bfab09"><div class="ttname"><a href="#a77be8e520ba3385065a7c0b233bfab09">pow2d</a></div><div class="ttdeci">double pow2d(double x)</div><div class="ttdef"><b>Определения</b> ff copy.c:84</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Типы</h2>
+<a id="ab800d4e1144fd90877a6134a1467b31a" name="ab800d4e1144fd90877a6134a1467b31a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab800d4e1144fd90877a6134a1467b31a">&#9670;&#160;</a></span>circle_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structCircle.html">Circle</a> <a class="el" href="circle_8h.html#ab800d4e1144fd90877a6134a1467b31a">circle_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae613c697c4133ca8304cfcb50507eac3" name="ae613c697c4133ca8304cfcb50507eac3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae613c697c4133ca8304cfcb50507eac3">&#9670;&#160;</a></span>rect_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="structRect.html">Rect</a> <a class="el" href="rect_8h.html#ae613c697c4133ca8304cfcb50507eac3">rect_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Функции</h2>
+<a id="a2ab76dac5bd2421190ec375e04777013" name="a2ab76dac5bd2421190ec375e04777013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ab76dac5bd2421190ec375e04777013">&#9670;&#160;</a></span>circle_create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="circle_8h.html#ab800d4e1144fd90877a6134a1467b31a">circle_t</a> * circle_create </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>radius</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор для круга </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>int абсцисса начала нового круга </td></tr>
+    <tr><td class="paramname">y</td><td>int ордината начала нового круга </td></tr>
+    <tr><td class="paramname">radius</td><td>int радиус круга </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>circle_t* указатель на созданный круг</dd></dl>
+<dl class="section note"><dt>Заметки</dt><dd>возвращает NULL </dd></dl>
+
+</div>
+</div>
+<a id="aeac78244a8b30ffee41ae0ac60356bd7" name="aeac78244a8b30ffee41ae0ac60356bd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeac78244a8b30ffee41ae0ac60356bd7">&#9670;&#160;</a></span>draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void draw </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="shape_8h.html#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a> *</td>          <td class="paramname"><span class="paramname"><em>c</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Метод для отрисовки Фигуры </p>
+<p>Полиморфная обертка</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>shape_t* указатель на фигуру </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae66f6b31b5ad750f1fe042a706a4e3d4" name="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="ff_01copy_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png" border="0" usemap="#aff_01copy_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
+<map name="aff_01copy_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="aff_01copy_8c_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
+<area shape="rect" title=" " alt="" coords="5,104,55,129"/>
+<area shape="rect" href="main_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="103,104,152,129"/>
+<area shape="poly" title=" " alt="" coords="55,114,87,114,87,119,55,119"/>
+<area shape="rect" href="main_8c.html#a33c092a6e331f446c7648bf9d1172281" title=" " alt="" coords="200,104,386,129"/>
+<area shape="poly" title=" " alt="" coords="152,114,184,114,184,119,152,119"/>
+<area shape="rect" href="main_8c.html#ae25b9fd7af24305d205bb581d220877b" title="Пример инкапсуляции" alt="" coords="217,252,369,277"/>
+<area shape="poly" title=" " alt="" coords="144,127,269,240,265,244,141,131"/>
+<area shape="rect" href="main_8c.html#ad1410c203e4dc0e49585742cbe9c1405" title="Пример наследования" alt="" coords="224,55,363,79"/>
+<area shape="poly" title=" " alt="" coords="152,105,199,90,228,81,229,87,201,95,153,111"/>
+<area shape="rect" href="circle_8c.html#a2ab76dac5bd2421190ec375e04777013" title="Конструктор для круга" alt="" coords="434,55,530,79"/>
+<area shape="poly" title=" " alt="" coords="343,101,418,81,420,86,344,106"/>
+<area shape="rect" href="shape_8c.html#aeac78244a8b30ffee41ae0ac60356bd7" title="Метод для отрисовки Фигуры" alt="" coords="457,153,507,178"/>
+<area shape="poly" title=" " alt="" coords="344,127,443,153,442,158,343,132"/>
+<area shape="rect" href="rect_8c.html#aa5c8547a3c5ba804e4d4e527553df165" title="Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL." alt="" coords="439,104,525,129"/>
+<area shape="poly" title=" " alt="" coords="386,114,423,114,423,119,386,119"/>
+<area shape="rect" href="point_8c.html#afc5556069d503479f75cd54d69ed854f" title="Геттер абсциссы точки" alt="" coords="455,203,509,227"/>
+<area shape="poly" title=" " alt="" coords="343,249,439,223,440,228,344,254"/>
+<area shape="rect" href="point_8c.html#a0c77945185d6cd0d72dfdd645dc97bf5" title="Геттер ординаты точки" alt="" coords="455,252,509,277"/>
+<area shape="poly" title=" " alt="" coords="370,262,439,262,439,267,370,267"/>
+<area shape="rect" href="point_8c.html#ad3f5dca9fde221e2aa96f81419290e1d" title="Конструктор точки" alt="" coords="456,301,508,326"/>
+<area shape="poly" title=" " alt="" coords="344,275,441,301,440,306,343,280"/>
+<area shape="rect" href="point_8c.html#a54395281002daaec90cb8e4ed35ae59d" title="Сеттер абсциссы точки" alt="" coords="455,351,509,375"/>
+<area shape="poly" title=" " alt="" coords="320,275,444,341,442,345,318,280"/>
+<area shape="poly" title=" " alt="" coords="363,64,419,64,419,70,363,70"/>
+<area shape="poly" title=" " alt="" coords="344,77,425,99,423,104,343,83"/>
+<area shape="rect" href="shape_8c.html#ad53b3e24a14308fc4938f2dc8a92f6cd" title="Метод для смещения Фигуры в новый центр" alt="" coords="456,5,508,30"/>
+<area shape="poly" title=" " alt="" coords="343,51,440,26,441,31,344,57"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad53b3e24a14308fc4938f2dc8a92f6cd" name="ad53b3e24a14308fc4938f2dc8a92f6cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad53b3e24a14308fc4938f2dc8a92f6cd">&#9670;&#160;</a></span>move()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void move </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="shape_8h.html#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a> *</td>          <td class="paramname"><span class="paramname"><em>c</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Метод для смещения Фигуры в новый центр </p>
+<p>Полиморфная обертка</p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>shape_t* указатель на фигуру </td></tr>
+    <tr><td class="paramname">x</td><td>int абсцисса нового центра фигуры </td></tr>
+    <tr><td class="paramname">y</td><td>int ордината нового центра фигуры </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a77be8e520ba3385065a7c0b233bfab09" name="a77be8e520ba3385065a7c0b233bfab09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77be8e520ba3385065a7c0b233bfab09">&#9670;&#160;</a></span>pow2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double pow2d </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0a99523630f5f9cc0399313566fb8804" name="a0a99523630f5f9cc0399313566fb8804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a99523630f5f9cc0399313566fb8804">&#9670;&#160;</a></span>pow2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float pow2f </td>
+          <td>(</td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a342b41a38820dd95b5131f8abf684177" name="a342b41a38820dd95b5131f8abf684177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a342b41a38820dd95b5131f8abf684177">&#9670;&#160;</a></span>pow2i()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pow2i </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa5c8547a3c5ba804e4d4e527553df165" name="aa5c8547a3c5ba804e4d4e527553df165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5c8547a3c5ba804e4d4e527553df165">&#9670;&#160;</a></span>rect_create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="rect_8h.html#ae613c697c4133ca8304cfcb50507eac3">rect_t</a> * rect_create </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>w</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>h</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL. </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Абсцисса абсцисса центра новой фигуры </td></tr>
+    <tr><td class="paramname">y</td><td>Ордината абсцисса центра новой фигуры </td></tr>
+    <tr><td class="paramname">w</td><td>Ширина нового прямоугольника </td></tr>
+    <tr><td class="paramname">h</td><td>Высота нового прямоугольника </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>rect_t* указатель на новый прямоугольник или NULL</dd></dl>
+<dl class="section note"><dt>Заметки</dt><dd>Возвращает NULL </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="ff_01copy_8c.html">ff copy.c</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

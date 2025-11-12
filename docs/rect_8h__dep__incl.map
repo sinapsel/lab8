@@ -1,7 +1,7 @@
-<map id="src/rect.h" name="src/rect.h">
-<area shape="rect" id="Node000001" title=" " alt="" coords="60,5,135,30"/>
-<area shape="rect" id="Node000002" href="$main_8c.html" title=" " alt="" coords="5,78,88,103"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,44,57,79,53,76,78,41"/>
-<area shape="rect" id="Node000003" href="$rect_8c.html" title=" " alt="" coords="112,78,187,103"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,41,143,76,139,79,113,44"/>
+<map id="include/rect.h" name="include/rect.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="32,5,130,30"/>
+<area shape="rect" id="Node000002" href="$main_8c.html" title=" " alt="" coords="5,78,66,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="67,45,45,79,41,76,63,42"/>
+<area shape="rect" id="Node000003" href="$rect_8c.html" title=" " alt="" coords="90,78,165,103"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="99,42,122,76,118,79,95,45"/>
 </map>
