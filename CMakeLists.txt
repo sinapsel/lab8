@@ -5,6 +5,9 @@ set (SRCDIR src)
 set(SRCS
     ${SRCDIR}/main.c
     ${SRCDIR}/point.c
+    ${SRCDIR}/shape.c
+    ${SRCDIR}/circle.c
+    ${SRCDIR}/rect.c
 )
 
 
