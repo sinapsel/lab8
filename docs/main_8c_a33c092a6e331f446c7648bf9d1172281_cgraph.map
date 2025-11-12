@@ -1,0 +1,9 @@
+<map id="dyn_polymorphism_example" name="dyn_polymorphism_example">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,192,79"/>
+<area shape="rect" id="Node000002" href="$circle_8c.html#a2ab76dac5bd2421190ec375e04777013" title="Конструктор для круга" alt="" coords="240,5,335,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,51,224,31,225,37,149,57"/>
+<area shape="rect" id="Node000003" href="$shape_8c.html#aeac78244a8b30ffee41ae0ac60356bd7" title="Метод для отрисовки Фигуры" alt="" coords="263,55,312,79"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="192,64,247,64,247,70,192,70"/>
+<area shape="rect" id="Node000004" href="$rect_8c.html#aa5c8547a3c5ba804e4d4e527553df165" title="Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL." alt="" coords="244,104,330,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="149,77,230,99,229,104,148,83"/>
+</map>

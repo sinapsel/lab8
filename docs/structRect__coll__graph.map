@@ -1,0 +1,8 @@
+<map id="Rect" name="Rect">
+<area shape="rect" id="Node000001" title="Прямоугольник." alt="" coords="5,164,43,247"/>
+<area shape="rect" id="Node000002" href="$structShape.html" title="Абстрактная Фигура" alt="" coords="71,5,119,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="73,72,57,91,44,113,33,148,28,146,39,111,53,88,69,69"/>
+<area shape="rect" id="Node000003" href="$structShapeVTable.html" title="Таблица виртуальных функций Фигуры" alt="" coords="94,174,181,237"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="90,88,89,114,93,139,103,159,98,161,88,141,84,114,84,88"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="139,174,139,144,134,113,125,93,130,90,139,111,144,143,144,174"/>
+</map>

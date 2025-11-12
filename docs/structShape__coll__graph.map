@@ -1,0 +1,6 @@
+<map id="Shape" name="Shape">
+<area shape="rect" id="Node000001" title="Абстрактная Фигура" alt="" coords="25,5,73,88"/>
+<area shape="rect" id="Node000002" href="$structShapeVTable.html" title="Таблица виртуальных функций Фигуры" alt="" coords="5,164,93,227"/>
+<area shape="poly" id="edge2_Node000002_Node000001" title=" " alt="" coords="28,78,14,108,11,124,13,139,17,149,12,151,8,141,6,123,9,106,23,76"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,164,53,140,53,105,58,105,58,140,56,165"/>
+</map>

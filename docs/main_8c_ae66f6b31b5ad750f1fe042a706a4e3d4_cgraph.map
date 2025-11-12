@@ -1,0 +1,27 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,55,129"/>
+<area shape="rect" id="Node000002" href="$main_8c.html#a33c092a6e331f446c7648bf9d1172281" title=" " alt="" coords="103,104,289,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,114,87,114,87,119,55,119"/>
+<area shape="rect" id="Node000006" href="$main_8c.html#ae25b9fd7af24305d205bb581d220877b" title="Пример инкапсуляции" alt="" coords="120,252,272,277"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="47,127,171,240,168,244,43,131"/>
+<area shape="rect" id="Node000011" href="$main_8c.html#ad1410c203e4dc0e49585742cbe9c1405" title="Пример наследования" alt="" coords="126,55,266,79"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="54,105,102,90,130,81,132,87,103,95,56,111"/>
+<area shape="rect" id="Node000003" href="$circle_8c.html#a2ab76dac5bd2421190ec375e04777013" title="Конструктор для круга" alt="" coords="337,55,432,79"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="245,101,321,81,323,86,247,106"/>
+<area shape="rect" id="Node000004" href="$shape_8c.html#aeac78244a8b30ffee41ae0ac60356bd7" title="Метод для отрисовки Фигуры" alt="" coords="360,153,409,178"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="247,127,346,153,344,158,245,132"/>
+<area shape="rect" id="Node000005" href="$rect_8c.html#aa5c8547a3c5ba804e4d4e527553df165" title="Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL." alt="" coords="342,104,428,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="289,114,326,114,326,119,289,119"/>
+<area shape="rect" id="Node000007" href="$point_8c.html#afc5556069d503479f75cd54d69ed854f" title="Геттер абсциссы точки" alt="" coords="358,203,412,227"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="245,249,342,223,343,228,247,254"/>
+<area shape="rect" id="Node000008" href="$point_8c.html#a0c77945185d6cd0d72dfdd645dc97bf5" title="Геттер ординаты точки" alt="" coords="358,252,412,277"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="272,262,342,262,342,267,272,267"/>
+<area shape="rect" id="Node000009" href="$point_8c.html#ad3f5dca9fde221e2aa96f81419290e1d" title="Конструктор точки" alt="" coords="358,301,411,326"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="247,275,344,301,343,306,245,280"/>
+<area shape="rect" id="Node000010" href="$point_8c.html#a54395281002daaec90cb8e4ed35ae59d" title="Сеттер абсциссы точки" alt="" coords="358,351,411,375"/>
+<area shape="poly" id="edge9_Node000006_Node000010" title=" " alt="" coords="223,275,347,341,345,345,220,280"/>
+<area shape="poly" id="edge11_Node000011_Node000003" title=" " alt="" coords="266,64,322,64,322,70,266,70"/>
+<area shape="poly" id="edge13_Node000011_Node000005" title=" " alt="" coords="247,77,327,99,326,104,245,83"/>
+<area shape="rect" id="Node000012" href="$shape_8c.html#ad53b3e24a14308fc4938f2dc8a92f6cd" title="Метод для смещения Фигуры в новый центр" alt="" coords="358,5,411,30"/>
+<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="245,51,343,26,344,31,247,57"/>
+</map>

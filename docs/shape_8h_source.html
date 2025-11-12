@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Lab8 test: Исходный файл src/shape.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Lab8 test<span id="projectnumber">&#160;1.0.1</span>
+   </div>
+   <div id="projectbrief">Demonstartion of OOP in C</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('shape_8h_source.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">shape.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="shape_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="shape_8h.html#ae274f2f18a55b89ef5ee8b7492c91f2a">   17</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structShape.html">Shape</a> <a class="code hl_typedef" href="shape_8h.html#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="shape_8h.html#a46ae5e898b3cc9b5374d5160948f22b7">   18</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structShapeVTable.html">ShapeVTable</a> <a class="code hl_typedef" href="shape_8h.html#a46ae5e898b3cc9b5374d5160948f22b7">vft_shape_t</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="shape_8h.html#a2cdf5833e86ef273daad8e71bf4322d3">   24</a></span><span class="keyword">typedef</span> void (*<a class="code hl_typedef" href="shape_8h.html#a2cdf5833e86ef273daad8e71bf4322d3">draw_func_t</a>)(<span class="keyword">const</span> <span class="keyword">struct </span><a class="code hl_struct" href="structShape.html">Shape</a> *);</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="shape_8h.html#a84fe9d96297c72bd46348cf3dd51f24f">   30</a></span><span class="keyword">typedef</span> void (*<a class="code hl_typedef" href="shape_8h.html#a84fe9d96297c72bd46348cf3dd51f24f">move_func_t</a>)(<span class="keyword">struct </span><a class="code hl_struct" href="structShape.html">Shape</a> *, int, int);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span></div>
+<div class="foldopen" id="foldopen00036" data-start="{" data-end="};">
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="structShapeVTable.html">   36</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structShapeVTable.html">ShapeVTable</a></div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>{</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="structShapeVTable.html#a19d37767a33a93bffa886e4f7f131c5e">   38</a></span>    <a class="code hl_typedef" href="shape_8h.html#a2cdf5833e86ef273daad8e71bf4322d3">draw_func_t</a> <a class="code hl_variable" href="structShapeVTable.html#a19d37767a33a93bffa886e4f7f131c5e">draw</a>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="structShapeVTable.html#a898eaa2462f30688bb3bfff0538a1815">   39</a></span>    <a class="code hl_typedef" href="shape_8h.html#a84fe9d96297c72bd46348cf3dd51f24f">move_func_t</a> <a class="code hl_variable" href="structShapeVTable.html#a898eaa2462f30688bb3bfff0538a1815">move</a>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>} <a class="code hl_typedef" href="shape_8h.html#a46ae5e898b3cc9b5374d5160948f22b7">vft_shape_t</a>;</div>
+</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span></div>
+<div class="foldopen" id="foldopen00046" data-start="{" data-end="};">
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="structShape.html">   46</a></span><span class="keyword">typedef</span> <span class="keyword">struct </span><a class="code hl_struct" href="structShape.html">Shape</a></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>{</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="structShape.html#a96b8700cda3da190cfdb142b08889ab7">   48</a></span>    <a class="code hl_typedef" href="shape_8h.html#a46ae5e898b3cc9b5374d5160948f22b7">vft_shape_t</a>* <a class="code hl_variable" href="structShape.html#a96b8700cda3da190cfdb142b08889ab7">vtable</a>; </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="structShape.html#ac1bbc96c15ee1218a5bfc38cde1014fa">   49</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structShape.html#ac1bbc96c15ee1218a5bfc38cde1014fa">x</a>; </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="structShape.html#a1c8aa4f016736974cd3ab791ce143639">   50</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structShape.html#a1c8aa4f016736974cd3ab791ce143639">y</a>; </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>} <a class="code hl_typedef" href="shape_8h.html#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a>;</div>
+</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keywordtype">void</span> <a class="code hl_function" href="shape_8h.html#aeaa0675a0fcc7fac6f0f93c4baf07f61">shape_move</a>(<a class="code hl_typedef" href="shape_8h.html#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a> *c, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span><span class="keywordtype">void</span> <a class="code hl_function" href="shape_8h.html#ad53b3e24a14308fc4938f2dc8a92f6cd">move</a>(<a class="code hl_typedef" href="shape_8h.html#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a> *c, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keywordtype">void</span> <a class="code hl_function" href="shape_8h.html#aeac78244a8b30ffee41ae0ac60356bd7">draw</a>(<span class="keyword">const</span> <a class="code hl_typedef" href="shape_8h.html#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a> *c);</div>
+<div class="ttc" id="ashape_8h_html_a2cdf5833e86ef273daad8e71bf4322d3"><div class="ttname"><a href="shape_8h.html#a2cdf5833e86ef273daad8e71bf4322d3">draw_func_t</a></div><div class="ttdeci">void(* draw_func_t)(const struct Shape *)</div><div class="ttdoc">Тип функции для отрисовки абстрактной фигуры</div><div class="ttdef"><b>Определения</b> shape.h:24</div></div>
+<div class="ttc" id="ashape_8h_html_a46ae5e898b3cc9b5374d5160948f22b7"><div class="ttname"><a href="shape_8h.html#a46ae5e898b3cc9b5374d5160948f22b7">vft_shape_t</a></div><div class="ttdeci">struct ShapeVTable vft_shape_t</div><div class="ttdoc">Таблица виртуальных функций Фигуры</div><div class="ttdef"><b>Определения</b> shape.h:18</div></div>
+<div class="ttc" id="ashape_8h_html_a84fe9d96297c72bd46348cf3dd51f24f"><div class="ttname"><a href="shape_8h.html#a84fe9d96297c72bd46348cf3dd51f24f">move_func_t</a></div><div class="ttdeci">void(* move_func_t)(struct Shape *, int, int)</div><div class="ttdoc">Тип функции для смешения фигуры в новый центр</div><div class="ttdef"><b>Определения</b> shape.h:30</div></div>
+<div class="ttc" id="ashape_8h_html_ad53b3e24a14308fc4938f2dc8a92f6cd"><div class="ttname"><a href="shape_8h.html#ad53b3e24a14308fc4938f2dc8a92f6cd">move</a></div><div class="ttdeci">void move(shape_t *c, int x, int y)</div><div class="ttdoc">Метод для смещения Фигуры в новый центр</div><div class="ttdef"><b>Определения</b> shape.c:36</div></div>
+<div class="ttc" id="ashape_8h_html_ae274f2f18a55b89ef5ee8b7492c91f2a"><div class="ttname"><a href="shape_8h.html#ae274f2f18a55b89ef5ee8b7492c91f2a">shape_t</a></div><div class="ttdeci">struct Shape shape_t</div><div class="ttdoc">Абстрактная Фигура</div><div class="ttdef"><b>Определения</b> shape.h:17</div></div>
+<div class="ttc" id="ashape_8h_html_aeaa0675a0fcc7fac6f0f93c4baf07f61"><div class="ttname"><a href="shape_8h.html#aeaa0675a0fcc7fac6f0f93c4baf07f61">shape_move</a></div><div class="ttdeci">void shape_move(shape_t *c, int x, int y)</div><div class="ttdoc">Функция для смещения Фигуры в новый центр</div><div class="ttdef"><b>Определения</b> shape.c:21</div></div>
+<div class="ttc" id="ashape_8h_html_aeac78244a8b30ffee41ae0ac60356bd7"><div class="ttname"><a href="shape_8h.html#aeac78244a8b30ffee41ae0ac60356bd7">draw</a></div><div class="ttdeci">void draw(const shape_t *c)</div><div class="ttdoc">Метод для отрисовки Фигуры</div><div class="ttdef"><b>Определения</b> shape.c:48</div></div>
+<div class="ttc" id="astructShapeVTable_html"><div class="ttname"><a href="structShapeVTable.html">ShapeVTable</a></div><div class="ttdoc">Таблица виртуальных функций Фигуры</div><div class="ttdef"><b>Определения</b> shape.h:37</div></div>
+<div class="ttc" id="astructShapeVTable_html_a19d37767a33a93bffa886e4f7f131c5e"><div class="ttname"><a href="structShapeVTable.html#a19d37767a33a93bffa886e4f7f131c5e">ShapeVTable::draw</a></div><div class="ttdeci">draw_func_t draw</div><div class="ttdef"><b>Определения</b> shape.h:38</div></div>
+<div class="ttc" id="astructShapeVTable_html_a898eaa2462f30688bb3bfff0538a1815"><div class="ttname"><a href="structShapeVTable.html#a898eaa2462f30688bb3bfff0538a1815">ShapeVTable::move</a></div><div class="ttdeci">move_func_t move</div><div class="ttdef"><b>Определения</b> shape.h:39</div></div>
+<div class="ttc" id="astructShape_html"><div class="ttname"><a href="structShape.html">Shape</a></div><div class="ttdoc">Абстрактная Фигура</div><div class="ttdef"><b>Определения</b> shape.h:47</div></div>
+<div class="ttc" id="astructShape_html_a1c8aa4f016736974cd3ab791ce143639"><div class="ttname"><a href="structShape.html#a1c8aa4f016736974cd3ab791ce143639">Shape::y</a></div><div class="ttdeci">int y</div><div class="ttdoc">Ордината центра фигуры</div><div class="ttdef"><b>Определения</b> shape.h:50</div></div>
+<div class="ttc" id="astructShape_html_a96b8700cda3da190cfdb142b08889ab7"><div class="ttname"><a href="structShape.html#a96b8700cda3da190cfdb142b08889ab7">Shape::vtable</a></div><div class="ttdeci">vft_shape_t * vtable</div><div class="ttdoc">Таблица виртуальный функций</div><div class="ttdef"><b>Определения</b> shape.h:48</div></div>
+<div class="ttc" id="astructShape_html_ac1bbc96c15ee1218a5bfc38cde1014fa"><div class="ttname"><a href="structShape.html#ac1bbc96c15ee1218a5bfc38cde1014fa">Shape::x</a></div><div class="ttdeci">int x</div><div class="ttdoc">Абсцисса центра фигуры</div><div class="ttdef"><b>Определения</b> shape.h:49</div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="shape_8h.html">shape.h</a></li>
+    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>

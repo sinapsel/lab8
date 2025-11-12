@@ -1,0 +1,9 @@
+<map id="inheritance_example" name="inheritance_example">
+<area shape="rect" id="Node000001" title="Пример наследования" alt="" coords="5,55,145,79"/>
+<area shape="rect" id="Node000002" href="$circle_8c.html#a2ab76dac5bd2421190ec375e04777013" title="Конструктор для круга" alt="" coords="193,5,288,30"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,51,181,32,183,38,120,57"/>
+<area shape="rect" id="Node000003" href="$shape_8c.html#ad53b3e24a14308fc4938f2dc8a92f6cd" title="Метод для смещения Фигуры в новый центр" alt="" coords="214,55,266,79"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,64,199,64,199,70,145,70"/>
+<area shape="rect" id="Node000004" href="$rect_8c.html#aa5c8547a3c5ba804e4d4e527553df165" title="Конструктор прямоугольника. Выделяет память под новую фигуру и возвразает указатель на нее или NULL." alt="" coords="197,104,284,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="120,77,183,96,181,102,118,83"/>
+</map>
