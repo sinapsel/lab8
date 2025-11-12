@@ -20,7 +20,8 @@ static void circle_draw(const shape_t *shape)
 {
     const circle_t *circle = (const circle_t *)shape;
     printf("Circle at (%d, %d), R=%d\n",
-           circle->base.x, circle->base.y, circle->radius);
+           pgetx(circle->base.origin), pgety(circle->base.origin),
+            circle->radius);
 }
 
 static vft_shape_t circle_vtable = {
@@ -42,8 +43,10 @@ circle_t *circle_create(int x, int y, int radius)
 {
     circle_t *circle = malloc(sizeof(circle_t));
     if (circle == NULL) return NULL;
-    circle->base.x = x;
-    circle->base.y = y;
+    point2_t *origin = pnew();
+    psetx(origin, x);
+    psety(origin, y);
+    circle->base.origin = origin;
     circle->base.vtable = &circle_vtable;
     circle->radius = radius;
     return circle;

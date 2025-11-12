@@ -20,8 +20,8 @@
  */
 void shape_move(shape_t *c, int x, int y)
 {
-    c->x = x;
-    c->y = y;
+    psetx(c->origin, x);
+    psety(c->origin, y);
 }
 
 /**

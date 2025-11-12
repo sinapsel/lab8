@@ -14,6 +14,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "point.h"
+
 typedef struct Shape shape_t;
 typedef struct ShapeVTable vft_shape_t;
 
@@ -46,8 +48,7 @@ typedef struct ShapeVTable
 typedef struct Shape
 {
     vft_shape_t* vtable; ///< Таблица виртуальный функций
-    int x; ///< Абсцисса центра фигуры
-    int y; ///< Ордината центра фигуры
+    point2_t* origin; ///< Точка центра фигуры
 } shape_t;
 
 /**
