@@ -5,7 +5,8 @@
 #include "circle.h"
 #include "rect.h"
 
-int main() {
+int main()
+{
 
     // инкапсуляция
     point2_t *p = pnew();
@@ -15,9 +16,12 @@ int main() {
     printf("%g", pgetx(p));
 
     /// наследование
-    circle_t* c = circle_create(1, 1, 2);
-    rect_t* r = rect_create(1, 1, 2, 3);
+    circle_t *c = circle_create(1, 1, 2);
+    rect_t *r = rect_create(1, 1, 2, 3);
 
-    move((shape_t*)c, 2, 4);
-    move((shape_t*)r, 3, -1);
+    move((shape_t *)c, 2, 4);
+    move((shape_t *)r, 3, -1);
+
+    draw((const shape_t *)c);
+    draw((const shape_t *)r);
 }

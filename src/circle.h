@@ -1,5 +1,4 @@
 #pragma once
-
 #include "shape.h"
 
 typedef struct Circle {
