@@ -49,3 +49,15 @@ void draw(const shape_t *c)
 {
     c->vtable->draw(c);
 }
+
+/**
+ * @brief Деструктор Фигуры
+ *  * 
+ * @param c shape_t* указатель на фигуру
+ */
+void destroy_shape(shape_t *c) {
+    if (c == NULL) return;
+    pfree(c->origin);
+    c->origin = NULL;
+    free(c);
+}

@@ -14,6 +14,8 @@ void incapsulation_example() {
     psetx(p, 2);
     // p->x = 2 // запрещено!
     printf("P(%d, %d)\n", pgetx(p), pgety(p));
+
+    pfree(p);
 }
 
 /**
@@ -26,6 +28,9 @@ void inheritance_example() {
 
     move((shape_t *)c, 2, 4);
     move((shape_t *)r, 3, -1);
+
+    destroy_shape((shape_t*)c);
+    destroy_shape((shape_t*)r);
 }
 
 void dyn_polymorphism_example() {
@@ -34,6 +39,9 @@ void dyn_polymorphism_example() {
 
     draw((const shape_t *)c);
     draw((const shape_t *)r);
+
+    destroy_shape((shape_t*)c);
+    destroy_shape((shape_t*)r);
 }
 
 int main()

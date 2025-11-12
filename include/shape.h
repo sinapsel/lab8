@@ -79,3 +79,10 @@ void move(shape_t *c, int x, int y);
  * @param c shape_t* указатель на фигуру
  */
 void draw(const shape_t *c);
+
+/**
+ * @brief Деструктор Фигуры
+ *  * 
+ * @param c shape_t* указатель на фигуру
+ */
+void destroy_shape(shape_t *c);

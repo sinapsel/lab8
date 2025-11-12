@@ -81,3 +81,13 @@ void psety(point2_t *p, int y)
 {
     p->y = y;
 }
+
+/**
+ * @brief Деструктор точки
+ * 
+ * @param p указатель на точку
+ */
+void pfree(point2_t *p) {
+    if (p == NULL) return;
+    free(p);
+}

@@ -60,3 +60,10 @@ void psety(point2_t* p, int y);
  * 
  */
 int pgety(point2_t* p);
+
+/**
+ * @brief Деструктор точки
+ * 
+ * @param p указатель на точку
+ */
+void pfree(point2_t *p);
