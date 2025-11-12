@@ -21,6 +21,10 @@ cmake -DCMAKE_BUILD_TYPE=Release -S . -B build
 ```bash
 cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build
 ```
+3. Режим с санитайзером адресов
+```bash
+cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build -DSAN=ON
+```
 
 #### Сборка
 ```bash

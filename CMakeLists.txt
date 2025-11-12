@@ -11,7 +11,15 @@ set(SRCS
     main.c
 )
 
-
 add_executable(prog ${SRCS})
 target_include_directories(prog PRIVATE include)
 target_compile_features(prog PRIVATE c_std_23)
+
+if(NOT DEFINED SAN)
+    set(SAN OFF)
+endif()
+
+if(SAN)
+    target_compile_options(prog PRIVATE -fsanitize=address)
+    target_link_options(prog PRIVATE -fsanitize=address)
+endif()
